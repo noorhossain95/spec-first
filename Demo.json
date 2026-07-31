@@ -1968,16 +1968,14 @@
           "photoUrls"
         ],
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int64"
-          },
           "category": {
             "$ref": "#/components/schemas/Category"
           },
           "name": {
             "type": "string",
-            "example": "doggie"
+            "examples": [
+              "doggie"
+            ]
           },
           "photoUrls": {
             "type": "array",
@@ -2008,11 +2006,23 @@
               "pending",
               "sold"
             ]
+          },
+          "ID": {
+            "type": "integer",
+            "format": "int64"
           }
         },
         "xml": {
           "name": "Pet"
-        }
+        },
+        "x-apidog-orders": [
+          "ID",
+          "category",
+          "name",
+          "photoUrls",
+          "tags",
+          "status"
+        ]
       },
       "ApiResponse": {
         "type": "object",
