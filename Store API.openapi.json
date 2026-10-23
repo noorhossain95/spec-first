@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "Store API",
+    "title": "STORE API",
     "description": "Manage pets, orders, purchases, users, and other operations in the pet shop.",
     "version": "1.0.0"
   },
@@ -10,7 +10,7 @@
       "name": "ABCD"
     },
     {
-      "name": "Chat"
+      "name": "ChaABCDt"
     },
     {
       "name": "Store"
